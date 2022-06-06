@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: #373D29;
+}
+
+@font-face {
+    font-family: Roxie Rossa;
+    src: url(RoxieRossa.otf);
+}
+
+body {
+    background-color: #bfcbb9;
+    padding: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Roxie Rossa";
+    font-size: 200px;
+    font-weight: 500;
+    transform: rotate(-25deg);
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button {
+    position: relative;
+    right: 50%;
+    background-color: #bfcbb9;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px 10px;
+    border: 1px solid #869d7a;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+
+button:hover {
+    transition: 300ms;
+    background-color: #91785D;
+    color: #bfcbb9;
+}
+
+.circle {
+    height: 350px;
+    width: 350px;
+    background-color: #869D7A;
+    border-radius: 100%;
+}
+
+.heroRow {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.herocontent {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.herocontent>h1 {
+    margin-left: -175px;
+}
+
+.heroimg {
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    width: 55vw;
+    height: 50vh;
+    background-image: url(https://images.unsplash.com/photo-1551248429-40975aa4de74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=990&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contentrow {
+    margin-top: -80px;
+}
+
+.contentrow>p {
+    max-width: 65vw;
+    text-align: center;
+}
+
+.arrowdiv {
+    position: fixed;
+    bottom: 20px;
+}
+
+.arrowicon {
+    color: #91785D;
+    font-weight: 900;
+    text-align: center;
+    border: 1px solid #869d7a;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    padding: 4px;
+    border-radius: 100px;
+}
+
+.arrowicon:hover {
+    transition: 300ms;
+    background-color: #91785D;
+    color: #bfcbb9;
+}
